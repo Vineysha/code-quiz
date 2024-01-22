@@ -1,0 +1,166 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#wrapper {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(8, 144, 165);
+    
+    
+}
+/*TIMER START*/
+#startTime {
+    background-color: rgb(8, 113, 135);
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+#questionsDiv {
+    margin: 20px;
+}
+/*ONGOING TIMER*/
+#currentTime {
+    float: right;
+    margin-top: 10px;
+}
+/*BACK BUTTON*/
+#goBack {
+    background-color: rgb(19, 0, 128);
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    left: 75%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*CLEAR SCORES*/
+#clear {
+    background-color: rgb(8, 144, 165);
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    right: 10%;
+    text-align: center;
+    
+}
+
+button {
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+/*SUBMIT BUTTON*/
+#Submit {
+    background-color: rgb(8, 144, 165);
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+label {
+    margin-right: 10px;
+}
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    background-color: rgb(8, 144, 165);
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 80%;
+    font-size: 18px;
+    color: white;
+}
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 786px) {
+    body {
+        min-width: 786px;
+    }
+    #wrapper {
+    position: absolute;
+    left: 10%;
+    }
+    a {
+      margin-left: 10%;
+    }
+    #clear{
+        left: -10%;
+    }
+    #goBack{
+        position: relative;
+        
+    }
+    }
+
+@media screen and (max-width: 785px) {
+body {
+    max-width: 785px;
+}
+#wrapper {
+position: absolute;
+left: 20%;
+}
+a {
+margin-left: 20%;
+}
+#goBack {
+    
+    position: relative;
+    left: 75%;
+}
+
+#clear {
+    
+    position: relative;
+    right: 5%;   
+}
+}
+
+@media screen and (max-width: 640px) {
+body {
+    min-width: 640px;
+}
+#wrapper {
+position: absolute;
+left: 10%;
+}
+a {
+  margin-left: 10%;
+}
+#clear{
+    left: -10%;
+}
+#goBack{
+    position: relative;
+    
+}
+}  
