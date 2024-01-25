@@ -9,7 +9,7 @@ N/A
 
 ## Usage
 
-Application URL:
+Application URL: https://vineysha.github.io/code-quiz/
 
 Upon opening the application the user will be able to read the instructions and press the start button to commence to quiz.
 
